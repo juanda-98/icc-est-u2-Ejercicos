@@ -4,12 +4,11 @@ import java.util.Deque;
 public class QueuePalindrome {
     public boolean isPalindrome (String text) {
 
-       Deque<Character> pila = new ArrayDeque<>();
-       String cleaned = text.toLowerCase().replaceAll("", "");
-        for (char letra : cleaned.toCharArray()) {
-            pila.push(letra);
-        }
-        for (char letra : text.toCharArray()) {
+        
+        String cleaned = text.toLowerCase().replaceAll("[^a-z0-9]", "");
+        Deque<Character> pila = new ArrayDeque<>();
+        
+       for (char letra : cleaned.toCharArray()) {
             pila.push(letra);
         }
         String invertido = "";
@@ -17,7 +16,7 @@ public class QueuePalindrome {
             invertido += pila.poll();
         }
 
-        return text.equals(invertido);
+        return cleaned.equals(invertido);
         
     }
 }

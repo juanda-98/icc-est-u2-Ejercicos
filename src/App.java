@@ -22,7 +22,7 @@ public class App {
 
         System.out.println("\n---Ejercicio 3:---");
         QueuePalindrome palindromeChecker = new QueuePalindrome();
-        String palabra = "la ruta natural";
+        String palabra = "la ruta no natural";
         System.out.println("Palabra: " + palabra);
         System.out.println("Resultado: " + palindromeChecker.isPalindrome(palabra));
     }
