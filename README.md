@@ -32,7 +32,7 @@ Se utilizan estructuras tipo **Stack** para almacenar los símbolos de apertura 
 Cuando se encuentra un símbolo de cierre, se compara con el último símbolo almacenado en la pila.
  
 ### Código principal
-![alt text](image.png)
+![alt text](/src/assets/image.png)
 
 ## Ejercicio 02: Ordenamiento de un Stack usando Stacks adicionales
  
@@ -55,7 +55,7 @@ De esta manera se logra ordenar la pila utilizando únicamente estructuras tipo 
  
  
 ### Código principal
-![alt text](image-1.png)
+![alt text](/src/assets/image-1.png)
 ## Ejercicio 03: Validación de Palíndromo usando Queue
  
 ### Descripción
@@ -71,7 +71,7 @@ Ejemplos:
  
  
 ### Código principal
-![alt text](image-2.png)
+![alt text](/src/assets/image-2.png)
 
 # Salida de consola
-![alt text](image-3.png)
+![alt text](/src/assets/image-3.png)
